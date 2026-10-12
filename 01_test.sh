@@ -1,3 +1,6 @@
 #!/bin/bash
+NAME1=$1
+NAME=$2
 
-echo "test git"
+echo "$NAME1 : How are you?"
+echo "$NAME : Good"
