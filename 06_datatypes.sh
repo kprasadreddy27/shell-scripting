@@ -2,6 +2,9 @@
 
 var1=10
 var2=20
+var3="kpr"
 
 echo "$var1+$var2"
 echo $(($var1+$var2))
+
+echo $(($var1+var2+var3))
