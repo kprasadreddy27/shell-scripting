@@ -16,7 +16,7 @@ count=$count+1
 
 echo $count
 
-fruits=("banana", "orange", "apple")
+fruits=(banana orange apple)
 
 echo ${fruits[@]}
 
