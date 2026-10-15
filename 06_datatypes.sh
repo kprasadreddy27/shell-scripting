@@ -15,3 +15,7 @@ declare -i count=5 # I am declaring as integer
 count=$count+1
 
 echo $count
+
+fruits=("banana", "orange", "apple")
+
+echo ${fruits[@]}
