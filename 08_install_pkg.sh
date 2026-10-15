@@ -9,4 +9,8 @@ else
     exit 1
 fi
 
-dnf install mysqllllll
+if(($?!=0)); then
+    echo "previous command failed"
+else
+    dnf install mysqllllll
+fi
