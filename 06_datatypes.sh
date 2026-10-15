@@ -12,4 +12,4 @@ echo $(($var1+var2+var3))
 
 declare -i count=5 # I am declaring as integer
 
-echo $count+1
+echo "$count+1"
