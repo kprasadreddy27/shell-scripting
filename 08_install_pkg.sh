@@ -7,3 +7,5 @@ if(($user_id==0)); then
 else
     echo "you don't have sudo access."
 fi
+
+dnf install mysqllllll
