@@ -19,3 +19,5 @@ echo $count
 fruits=("banana", "orange", "apple")
 
 echo ${fruits[@]}
+
+echo ${fruits[0]}
