@@ -16,8 +16,17 @@ count=$count+1
 
 echo $count
 
+fruits=("banana" "orange" "apple")
+
+echo ${fruits[@]}
+
+echo ${fruits[0]}
+
 fruits=(banana orange apple)
 
 echo ${fruits[@]}
 
 echo ${fruits[0]}
+
+name="prasad"
+echo ${name}reddy
