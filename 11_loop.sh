@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for(i=0; i <100; i++){
-  
-    echo ${i}
-}
+for number in {1...100}
+do
+      echo ${number}
+done
